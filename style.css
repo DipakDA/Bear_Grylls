@@ -7,6 +7,20 @@ body, html{
 #main span{
 	position: fixed;
 	}
+	
+#sidenavBtn img{
+	height: 50px;
+	width: auto;
+	padding: 0;
+	top: 0;
+	left: 0;
+	opacity: .3;
+	
+	}
+	
+#sidenavBtn img:hover{
+	opacity: .7;
+	}
 
 
 .sidenav{
