@@ -3,14 +3,20 @@
 <HEAD>
 <link rel="stylesheet" href = "style.css">
 <TITLE>>Bear Grylls</TITLE>
-<script src="script.js"></script>
 </HEAD>
-<BODY>
-
+<BODY onload="appear()">
+<div id = "popup" class="overlay">
+	<div class="overlay-content">
+		<a href="#welcome">To know more, Click Here</a>
+	</div>
+</div>
 <div id = "trailer">
 <iframe src="https://www.youtube.com/embed/oa6N7agxizw?autoplay=1&hd=1&iv_load_policy=3&rel=0" frameborder=0></iframe>
 </div>
 
+
+
+<a name="welcome"></a>
 <div id = "mySidenav" class="sidenav">
 	<a href="javascript:void(0)" class = "closebtn" onclick="closeNav()">&times;</a>
 	<a href="about.html">About</a>
@@ -25,7 +31,7 @@
 <img src = "./resources/images/indexbutton.png"></span>
 
 </div>
-
+<script src="script.js"></script>
 </body>
 </html>
 
